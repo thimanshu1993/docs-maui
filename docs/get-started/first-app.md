@@ -30,7 +30,7 @@ First, download the Visual Studio 2022 17.3 Preview:
 
 :::row:::
    :::column span="":::
-      > [!div class="box box-shadow-medium margin-none margin-xxs-desktop"]
+      > [!div class="box"]
       > ###### Visual Studio Community
       > Visual Studio Community is a free, fully-featured IDE for students, open-source contributors, and individual developers.
       > [Download Preview](https://c2rsetup.officeapps.live.com/c2r/downloadVS.aspx?sku=Community&channel=Preview&Version=VS2022&source=VSLandingPage&add=Microsoft.VisualStudio.Workload.CoreEditor&add=Microsoft.VisualStudio.Workload.NetCrossPlat;includeRecommended&cid=2303)
