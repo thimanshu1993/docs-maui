@@ -26,20 +26,31 @@ Visual Studio for Mac support will arrive in a future release.
 
 ## Get started with Visual Studio 2022 17.3 (Preview)
 
+First, download the Visual Studio 2022 17.3 Preview:
+
+:::row:::
+   :::column span="":::
+      > [!div class="button"]
+      > #### Visual Studio Community
+      > [Dowload Preview](https://c2rsetup.officeapps.live.com/c2r/downloadVS.aspx?sku=Community&channel=Preview&Version=VS2022&source=VSLandingPage&add=Microsoft.VisualStudio.Workload.CoreEditor&add=Microsoft.VisualStudio.Workload.NetCrossPlat;includeRecommended&cid=2303)
+   :::column-end:::
+   :::column span="":::
+      > [!div class="button"]
+      > #### Visual Studio Professional
+      > [Dowload Preview](https://c2rsetup.officeapps.live.com/c2r/downloadVS.aspx?sku=Professional&channel=Preview&Version=VS2022&source=VSLandingPage&add=Microsoft.VisualStudio.Workload.CoreEditor&add=Microsoft.VisualStudio.Workload.NetCrossPlat;includeRecommended&cid=2303)
+   :::column-end:::
+   :::column span="":::
+      > [!div class="button"]
+      > #### Visual Studio Enterprise
+      > [Dowload Preview](https://c2rsetup.officeapps.live.com/c2r/downloadVS.aspx?sku=Enterprise&channel=Preview&Version=VS2022&source=VSLandingPage&add=Microsoft.VisualStudio.Workload.CoreEditor&add=Microsoft.VisualStudio.Workload.NetCrossPlat;includeRecommended&cid=2303)
+   :::column-end:::
+:::row-end:::
+
 :::zone pivot="devices-android"
 
 In this tutorial, you'll create your first .NET MAUI app in Visual Studio 2022 17.3 Preview, and run it on an Android emulator:
 
 01. To create .NET MAUI apps, you'll need the latest Visual Studio 2022 17.3 Preview:
-
-    > [!div class="button"]
-    > [Download 2022 Community Preview](https://c2rsetup.officeapps.live.com/c2r/downloadVS.aspx?sku=Community&channel=Preview&Version=VS2022&source=VSLandingPage&add=Microsoft.VisualStudio.Workload.CoreEditor&add=Microsoft.VisualStudio.Workload.NetCrossPlat;includeRecommended&cid=2303)
-
-    > [!div class="button"]
-    > [Download 2022 Professional Preview](https://c2rsetup.officeapps.live.com/c2r/downloadVS.aspx?sku=Professional&channel=Preview&Version=VS2022&source=VSLandingPage&add=Microsoft.VisualStudio.Workload.CoreEditor&add=Microsoft.VisualStudio.Workload.NetCrossPlat;includeRecommended&cid=2303)
-
-    > [!div class="button"]
-    > [Download 2022 Enterprise Preview](https://c2rsetup.officeapps.live.com/c2r/downloadVS.aspx?sku=Enterprise&channel=Preview&Version=VS2022&source=VSLandingPage&add=Microsoft.VisualStudio.Workload.CoreEditor&add=Microsoft.VisualStudio.Workload.NetCrossPlat;includeRecommended&cid=2303)
 
     Either install Visual Studio, or modify your installation, and install the .NET Multi-platform App UI development workload with its default optional installation options:
 
