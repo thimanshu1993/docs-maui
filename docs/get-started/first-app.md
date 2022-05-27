@@ -31,18 +31,21 @@ First, download the Visual Studio 2022 17.3 Preview:
 :::row:::
    :::column span="":::
       > [!div class="button"]
-      > #### Visual Studio Community
-      > [Dowload Preview](https://c2rsetup.officeapps.live.com/c2r/downloadVS.aspx?sku=Community&channel=Preview&Version=VS2022&source=VSLandingPage&add=Microsoft.VisualStudio.Workload.CoreEditor&add=Microsoft.VisualStudio.Workload.NetCrossPlat;includeRecommended&cid=2303)
+      > ###### Visual Studio Community
+      > Visual Studio Community is a free, fully-featured IDE for students, open-source contributors, and individual developers.
+      > [Download Preview](https://c2rsetup.officeapps.live.com/c2r/downloadVS.aspx?sku=Community&channel=Preview&Version=VS2022&source=VSLandingPage&add=Microsoft.VisualStudio.Workload.CoreEditor&add=Microsoft.VisualStudio.Workload.NetCrossPlat;includeRecommended&cid=2303)
    :::column-end:::
    :::column span="":::
       > [!div class="button"]
-      > #### Visual Studio Professional
-      > [Dowload Preview](https://c2rsetup.officeapps.live.com/c2r/downloadVS.aspx?sku=Professional&channel=Preview&Version=VS2022&source=VSLandingPage&add=Microsoft.VisualStudio.Workload.CoreEditor&add=Microsoft.VisualStudio.Workload.NetCrossPlat;includeRecommended&cid=2303)
+      > ###### Visual Studio Professional
+      > Visual Studio professional is a powerful, fully-featured IDE for developers designing, building, and deploying innovative applications for any platform.
+      > [Download Preview](https://c2rsetup.officeapps.live.com/c2r/downloadVS.aspx?sku=Professional&channel=Preview&Version=VS2022&source=VSLandingPage&add=Microsoft.VisualStudio.Workload.CoreEditor&add=Microsoft.VisualStudio.Workload.NetCrossPlat;includeRecommended&cid=2303)
    :::column-end:::
    :::column span="":::
       > [!div class="button"]
-      > #### Visual Studio Enterprise
-      > [Dowload Preview](https://c2rsetup.officeapps.live.com/c2r/downloadVS.aspx?sku=Enterprise&channel=Preview&Version=VS2022&source=VSLandingPage&add=Microsoft.VisualStudio.Workload.CoreEditor&add=Microsoft.VisualStudio.Workload.NetCrossPlat;includeRecommended&cid=2303)
+      > ###### Visual Studio Enterprise
+      > Visual Studio Enterprise is a powerful, comprehensive IDE for developers designing, building, testing, and deploying complex applications for any platform—including the Microsoft stack.
+      > [Download Preview](https://c2rsetup.officeapps.live.com/c2r/downloadVS.aspx?sku=Enterprise&channel=Preview&Version=VS2022&source=VSLandingPage&add=Microsoft.VisualStudio.Workload.CoreEditor&add=Microsoft.VisualStudio.Workload.NetCrossPlat;includeRecommended&cid=2303)
    :::column-end:::
 :::row-end:::
 
