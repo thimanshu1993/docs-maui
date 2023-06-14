@@ -15,3 +15,10 @@ There's a large third-party library ecosystem for Android, and .NET for Android 
 .NET for Android implements bindings by using *Managed Callable Wrappers (MCW)*. MCW is a JNI bridge that's used when managed code needs to invoke Java code. Managed callable wrappers also provide support for subclassing Java types and for overriding virtual methods on Java types. Similarly, whenever Android runtime (ART) code wants to invoke managed code, it does so via another JNI bridge known as Android Callable Wrappers (ACW). This architecture is shown in the following diagram:
 
 :::image type="content" source="media/architecture.png" alt-text="Architecture diagram for how .NET for Android invokes Java code." border="false":::
+
+----
+
+
+Troubleshooting Android Bindings - https://github.com/xamarin/java.interop/wiki/Troubleshooting-Android-Bindings-Issues
+Investigate/document slim bindings - https://github.com/xamarin/xamarin-android/issues/7369
+Add support for AndroidJavaSource to Bindings - https://github.com/xamarin/xamarin-android/pull/5926

@@ -6,8 +6,7 @@ ms.date: 06/05/2023
 
 # Bind Java source in an Android app
 
-With .net 6 Bindings can be done on not only `.jar` and `.aar` files but also raw `.java` code. This will allow developers of bindings or applications to write custom API's for underlying bindings
-and expose them easily to the developer.
+With .NET 6 bindings can be done on not only `.jar` and `.aar` files but also raw `.java` code. This will allow developers of bindings or applications to write custom API's for underlying bindings and expose them easily to the developer.
 
 Applications already had the ability to include [`AndroidJavaSource`](https://docs.microsoft.com/en-us/xamarin/android/deploy-test/building-apps/build-items#androidjavasource) items in them, these would then be compiled into the final `classes.dex`. However this custom java source code was not "bound" and if users wanted to call these classes they would need to do that manually.
 
