@@ -173,6 +173,9 @@ When a `SwipeItem` is tapped, its `Invoked` event fires and is handled by its re
 > [!NOTE]
 > When the appearance of a `SwipeItem` is defined only using the `Text` or `IconImageSource` properties, the content is always centered.
 
+> [!NOTE]
+> As of now`IconImageSource` property does not support .svg format.
+
 In addition to defining swipe items as `SwipeItem` objects, it's also possible to define custom swipe item views. For more information, see [Custom swipe items](#custom-swipe-items).
 
 ## Swipe direction
