@@ -12,6 +12,9 @@ The .NET Multi-platform App UI (.NET MAUI) <xref:Microsoft.Maui.Controls.SwipeVi
 
 :::image type="content" source="media/swipeview/swipeview-collectionview.png" alt-text="Screenshot of SwipeView swipe items in a CollectionView.":::
 
+> [!IMPORTANT]
+> <xref:Microsoft.Maui.Controls.SwipeView> is designed for touch interfaces. On Windows it can only be swiped in a touch interface and will not function with a pointer device such as a mouse.
+
 <xref:Microsoft.Maui.Controls.SwipeView> defines the following properties:
 
 - `LeftItems`, of type `SwipeItems`, which represents the swipe items that can be invoked when the control is swiped from the left side.
@@ -133,13 +136,16 @@ The `LeftItems`, `RightItems`, `TopItems`, and `BottomItems` collections are all
 
 These properties are backed by <xref:Microsoft.Maui.Controls.BindableProperty> objects, which means that they can be targets of data bindings, and styled.
 
-Each swipe item is defined as a `SwipeItem` object that's placed into one of the four `SwipeItems` directional collections. The `SwipeItem` class derives from the `MenuItem` class, and adds the following members:
+Each swipe item is defined as a `SwipeItem` object that's placed into one of the four `SwipeItems` directional collections. The `SwipeItem` class derives from the  <xref:Microsoft.Maui.Controls.MenuItem> class, and adds the following members:
 
 - A `BackgroundColor` property, of type <xref:Microsoft.Maui.Graphics.Color>, that defines the background color of the swipe item. This property is backed by a bindable property.
 - An `Invoked` event, which is raised when the swipe item is executed.
 
 > [!IMPORTANT]
-> The `MenuItem` class defines several properties, including `Command`, `CommandParameter`, `IconImageSource`, and `Text`. These properties can be set on a `SwipeItem` object to define its appearance, and to define an `ICommand` that executes when the swipe item is invoked. <!--For more information, see [MenuItem](~/user-interface/menuitem.md).-->
+> The  <xref:Microsoft.Maui.Controls.MenuItem> class defines several properties, including `Command`, `CommandParameter`, `IconImageSource`, and `Text`. These properties can be set on a `SwipeItem` object to define its appearance, and to define an `ICommand` that executes when the swipe item is invoked. For more information, see [Display menu items](~/user-interface/menuitem.md).
+
+> [!NOTE]
+> As of now`IconImageSource` property does not support .svg format.
 
 The following example shows two `SwipeItem` objects in the `LeftItems` collection of a <xref:Microsoft.Maui.Controls.SwipeView>:
 
